@@ -52,7 +52,7 @@ const useFirebase = () => {
 
         });
         return () => unsubscribed;
-    }, [])
+    }, [auth])
 
     const logout = () => {
         setIsLoading(true);
@@ -87,7 +87,7 @@ const useFirebase = () => {
     const registeruser = (mail, password) => {
         createUserWithEmailAndPassword(auth, mail, password)
             .then((result) => {
-                const user = result.user;
+                const user = auth.currentUser;
                 verifyUserMail();
                 updateUserName();
                 setError('');
