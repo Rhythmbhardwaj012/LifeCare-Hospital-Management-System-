@@ -87,7 +87,7 @@ const useFirebase = () => {
     const registeruser = (mail, password) => {
         createUserWithEmailAndPassword(auth, mail, password)
             .then((result) => {
-                const user = auth.currentUser;
+               
                 verifyUserMail();
                 updateUserName();
                 setError('');

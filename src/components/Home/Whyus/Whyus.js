@@ -106,8 +106,7 @@ const Whyus = () => {
 };
 
 export default Whyus;
-
-{/* <Card sx={{ display: 'flex', mx: 'auto', my: 2 }}>
+/* <Card sx={{ display: 'flex', mx: 'auto', my: 2 }}>
                  <Box sx={{ display: 'flex', flexDirection: 'row' }}>
                     <CardContent sx={{ flex: '1 0 auto' }}>
                         <Typography component="div" variant="h5">
@@ -121,4 +120,4 @@ export default Whyus;
                     image={service?.service_img}
                     alt="User Image"
                     />
-                </Card>  */}
+                </Card>  */

@@ -35,7 +35,7 @@ const ServiceDetails = () => {
     } else {
       console.log("waitting for data");
     }
-  }, [services]);
+  }, [servId]);
 
   return (
     <Box

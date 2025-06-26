@@ -14,7 +14,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import HealingTwoToneIcon from "@mui/icons-material/HealingTwoTone";
 import CallIcon from "@mui/icons-material/Call";
-import FacebookIcon from "@mui/icons-material/Facebook";
+
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
